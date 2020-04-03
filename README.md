@@ -8,6 +8,12 @@ network. It will probably randomly choose one when discovering a device.
 
 	$ pip install -r requirements.txt
 
+## Virtual Environment for Python version 2.7
+
+  	$ virtualenv -p python2 env
+  	$ source env/bin/activate
+  	$ python2 --version
+  	
 ## Usage
 
-    $ python roku.py
+    $ python2 roku.py
